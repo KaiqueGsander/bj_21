@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card-hand {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 40px;
+    height: 60px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hit-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#stand-btn {
+    background-color: #ff5722;
+    color: white;
+}
+
+#restart-btn {
+    background-color: #607d8b;
+    color: white;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
